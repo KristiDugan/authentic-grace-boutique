@@ -1,0 +1,129 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
+
+/* Styles are mobile-first, media queries for larger screens are at the bottom */
+
+/* Color variables */
+:root {
+	--main-text-color: #222;
+	--main-bg-color: #fff;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	color: var(--main-text-color);
+	font-size: 1.3rem;
+	font-weight: 300;
+}
+
+.fixed-top {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.navbar {
+	background-color: #eee;
+	overflow: hidden;
+	display: flex;
+	padding: 1rem;
+	width: 100%;
+	height: 60px;
+	justify-content: space-between;
+}
+
+.navbar .collapse {
+	display: none;
+}
+
+.navbar .show {
+	display: block;
+}
+
+.navbar a {
+	text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar a:active {
+	text-decoration: underline;
+}
+
+.icon {
+	font-size: 1.5rem;
+}
+
+a.icon,
+a.icon:hover,
+a.icon:active {
+	text-decoration: none;
+}
+
+#hamburger {
+	width: 30px;
+}
+
+#navbarToggledItems {
+	position: fixed;
+	top: 60px;
+	left: 0;
+	padding: 1rem;
+	background-color: var(--main-bg-color);
+}
+#navbarToggledItems.show {
+	width: 75vw;
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	background-color: var(--main-bg-color);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link {
+	padding: 0.5rem 1.5rem;
+}
+
+.navbar-brand {
+	font-family: "Satisfy", cursive;
+	font-size: 1.8rem;
+	transform: translateX(-5%);
+}
+
+main {
+	padding: 2rem 1rem;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 601px) {
+	#hamburger {
+		display: none;
+	}
+
+	.navbar .collapse {
+		display: block;
+	}
+
+	#navbarToggledItems {
+		background-color: var(--main-bg-color);
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100vw;
+		justify-content: space-between;
+		align-items: center;
+		text-align: center;
+		font-size: 1rem;
+	}
+
+	main {
+		padding-top: 6rem;
+	}
+}
