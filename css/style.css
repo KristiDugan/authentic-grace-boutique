@@ -7,6 +7,7 @@
 :root {
 	--main-text-color: #222;
 	--main-bg-color: #fff;
+	--nav-bg-color: #e1e8e5;
 }
 
 * {
@@ -31,7 +32,7 @@ body {
 }
 
 .navbar {
-	background-color: #eee;
+	background-color: var(--nav-bg-color);
 	overflow: hidden;
 	display: flex;
 	padding: 1rem;
@@ -50,6 +51,7 @@ body {
 
 .navbar a {
 	text-decoration: none;
+	color: #3d4552;
 }
 
 .navbar a:hover,
@@ -79,7 +81,7 @@ a.icon:active {
 	background-color: var(--main-bg-color);
 }
 #navbarToggledItems.show {
-	width: 75vw;
+	width: 65vw;
 	display: flex;
 	flex-direction: column;
 	padding: 1rem;
@@ -101,6 +103,16 @@ main {
 	padding: 2rem 1rem;
 }
 
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
+		url("../images/sunflowers.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 60vh;
+	background-position: 0% 35%;
+}
+
 /* Media queries */
 
 @media screen and (min-width: 601px) {
@@ -110,6 +122,14 @@ main {
 
 	.navbar .collapse {
 		display: block;
+	}
+
+	.navbar-brand {
+		transform: none;
+	}
+
+	.nav-link {
+		padding: 0.5rem 0.75rem;
 	}
 
 	#navbarToggledItems {
@@ -123,7 +143,7 @@ main {
 		font-size: 1rem;
 	}
 
-	main {
+	header {
 		padding-top: 6rem;
 	}
 }
