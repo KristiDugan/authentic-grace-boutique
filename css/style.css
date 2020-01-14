@@ -133,6 +133,13 @@ figure {
 	margin: 0;
 }
 
+.testimonials-category img {
+	width: 60%100vw;
+	height: 40vh;
+	background-position: 0% 35%;
+}
+
+
 figcaption {
 	text-transform: uppercase;
 	font-weight: normal;
