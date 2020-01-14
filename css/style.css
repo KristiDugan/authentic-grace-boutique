@@ -5,9 +5,10 @@
 
 /* Color variables */
 :root {
-	--main-text-color: #222;
+	--main-text-color: #333;
 	--main-bg-color: #fff;
 	--nav-bg-color: #e1e8e5;
+	--font-cursive: "Satisfy", cursive;
 }
 
 * {
@@ -29,6 +30,7 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
+	z-index: 10;
 }
 
 .navbar {
@@ -94,13 +96,14 @@ a.icon:active {
 }
 
 .navbar-brand {
-	font-family: "Satisfy", cursive;
+	font-family: var(--font-cursive);
 	font-size: 1.8rem;
 	transform: translateX(-5%);
+	margin: 0;
 }
 
 main {
-	padding: 2rem 1rem;
+	padding: 1.5rem 1rem 3rem;
 }
 
 .hero-image {
@@ -112,6 +115,14 @@ main {
 	height: 50vh;
 	background-position: 0% 35%;
 }
+
+.tagline {
+	text-align: center;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+
+/* Featured Categories */
 
 .featured {
 	display: flex;
@@ -133,13 +144,6 @@ figure {
 	margin: 0;
 }
 
-.testimonials-category img {
-	width: 60%100vw;
-	height: 40vh;
-	background-position: 0% 35%;
-}
-
-
 figcaption {
 	text-transform: uppercase;
 	font-weight: normal;
@@ -160,6 +164,43 @@ figcaption:hover {
 .featured-category img:hover {
 	filter: brightness(1.2);
 	transition-duration: 0.3s;
+}
+
+/* Testimonials */
+
+.testimonials img {
+	width: 100%;
+}
+
+/* Footer */
+
+footer {
+	background-color: #888;
+	padding: 1.5rem 0 3rem;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-row-gap: 1rem;
+	justify-items: center;
+	text-align: center;
+}
+
+footer h2 {
+	font-weight: normal;
+	font-family: var(--font-cursive);
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+footer a {
+	color: #fff;
+	padding: 0.25rem 0.5rem;
+	text-decoration: none;
+	font-size: 0.9rem;
+	display: block;
+}
+
+footer a:hover {
+	text-decoration: underline;
 }
 
 /******* Media queries *******/
@@ -206,5 +247,10 @@ figcaption:hover {
 
 	.featured-category:last-of-type {
 		margin-right: 0;
+	}
+
+	footer {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr;
 	}
 }
