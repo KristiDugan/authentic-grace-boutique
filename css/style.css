@@ -3,6 +3,8 @@
 
 /* Styles are mobile-first, media queries for larger screens are at the bottom */
 
+/* NOTE: .sr-only class is built in from fontawesome */
+
 /* Color variables */
 :root {
 	--main-text-color: #333;
@@ -167,10 +169,6 @@ figcaption:hover {
 }
 
 /* Testimonials */
-
-.testimonials img {
-	width: 100%;
-}
 
 /* Footer */
 
