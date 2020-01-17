@@ -299,6 +299,16 @@ button.add-to-bag {
 #product-detail .product-description p {
 	font-size: 1rem;
 	line-height: 1.3;
+	max-width: 800px;
+}
+
+a.back-to-top {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin-top: 2rem;
+	font-size: 3rem;
+	color: var(--nav-bg-color);
 }
 
 /* Main Page Footer */
