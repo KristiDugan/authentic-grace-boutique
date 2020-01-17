@@ -12,19 +12,14 @@
 </head>
 
 <body>
-	<nav id="top-nav" class="navbar fixed-top">
+	<header class="navbar fixed-top">
 		<div>
 			<a id="hamburger" class="icon fas fa-bars"></a>
 			<a href="#" class="icon fas fa-search" title="Search"><span class="sr-only">Search</span></a>
 		</div>
-
-		<h1 class="navbar-brand">
-			<a href="/">Authentic Grace</a>
-		</h1>
-
+		<h1 class="logo"><a href="/">Authentic Grace</a></h1>
 		<a href="#" class="icon fas fa-shopping-bag" title="Shopping bag"><span class="sr-only">Shopping bag</span></a>
-
-	</nav>
+	</header>
 
 	<nav class="navbar">
 		<!-- These will collapse inside hamburger menu -->
@@ -40,10 +35,11 @@
 		<!-- End collapsing items -->
 	</nav>
 
-	<header class="hero-image"></header>
+	<div class="hero-image"></div>
 	<main>
 		<p class="tagline">Classic styles and trendy pieces since 2013</p>
 		<section class="featured">
+			<h2 class="sr-only">Featured Categories</h2>
 			<div class="featured-category">
 				<a href="#">
 					<figure>
@@ -72,48 +68,40 @@
 
 		<!---Testimonials-->
 		<section class="testimonials">
-			<div class="testimonial-one">
-				<em>"Thanks for helping me find... me!"</em>
-
-				<p>
-					"Even though I had my little one two years ago, I was still having a hard time
+			<h2>Testimonials</h2>
+			<blockquote>
+				<header>"Thanks for helping me find... me!"</header>
+				<p>"Even though I had my little one two years ago, I was still having a hard time
 					finding clothing I felt suited me. Authentic Grace's wonderful customer service
 					reps actually took the time to listen to my needs (and let me vent!) and helped me
 					find a dress for my first formal outing since giving birth."</p>
-				<p>
-					- Kristen, Columbus, Ohio
-				</p>
-			</div>
+				<footer>- Kristen, Columbus, Ohio</footer>
+			</blockquote>
 
-
-			<div class="testimonial-two">
-				<em>"So much more than just clothes"</em>
+			<blockquote>
+				<header>"So much more than just clothes"</header>
 				<p>
 					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit veniam molestias maxime consequatur
-					laborum in quas. A, temporibus illo. Enim ipsum reiciendis odio voluptates laborum! Magnam enim autem unde?"
+					laborum in quas."
 				</p>
-				<p>
-					-Domeisy, Riverdale, NY
-				</p>
-			</div>
+				<footer>-Domeisy, Riverdale, NY</footer>
+			</blockquote>
 
-			<div class="testimonial-three">
-				<em>"20/20 for 2020!"</em>
+			<blockquote>
+				<header>"20/20 for 2020!"</header>
 				<p>
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellendus corporis nihil omnis quis voluptate
-					illum, maxime tempora molestias quaerat soluta fugiat enim repellat culpa, perspiciatis libero iure magni
-					molestiae?"</p>
-				<p>
-					-Tracie, Minneapolis, MN
+					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit veniam molestias maxime consequatur
+					laborum in quas."
 				</p>
-			</div>
+				<footer>-Tracie, Minneapolis, MN</footer>
+			</blockquote>
 
 		</section>
 
 	</main>
 	<!--Footer-->
 
-	<footer>
+	<footer class="nav-footer">
 		<div class="socials">
 			<h2>
 				Connect
