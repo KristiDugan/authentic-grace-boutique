@@ -28,6 +28,10 @@ body {
 	font-weight: 300;
 }
 
+button {
+	cursor: pointer;
+}
+
 .fixed-top {
 	position: fixed;
 	top: 0;
