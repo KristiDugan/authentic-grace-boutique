@@ -2,7 +2,7 @@
 
 A front-end website project for Moms Can Code School Cohort 5. 
 
-![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fauthentic-grace-boutique.netlify.com) ![GitHub language count](https://img.shields.io/github/languages/count/KristiDugan/authentic-grace-boutique) ![GitHub top language](https://img.shields.io/github/languages/top/KristiDugan/authentic-grace-boutique) ![GitHub](https://img.shields.io/github/license/KristiDugan/authentic-grace-boutique)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fauthentic-grace-boutique.netlify.com) ![GitHub language count](https://img.shields.io/github/languages/count/KristiDugan/authentic-grace-boutique) ![GitHub top language](https://img.shields.io/github/languages/top/KristiDugan/authentic-grace-boutique) ![GitHub](https://img.shields.io/github/license/kristidugan/authentic-grace-boutique)
 
 [View website on Netlify](https://authentic-grace-boutique.netlify.com/) 
 
