@@ -28,7 +28,8 @@ body {
 	font-weight: 300;
 }
 
-button {
+button:hover,
+button:active {
 	cursor: pointer;
 }
 
