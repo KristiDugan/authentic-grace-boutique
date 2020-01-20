@@ -118,7 +118,7 @@ main {
 
 .hero-image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
-		url("../images/sunflowers.jpg");
+		url("../images/sunflowers-1000w.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100vw;
@@ -393,6 +393,12 @@ footer.nav-footer a.icon:hover {
 
 	header:first {
 		padding-top: 6rem;
+	}
+
+	/* Use higher resolution hero image for larger screens */
+	.hero-image {
+		background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
+			url("../images/sunflowers.jpg");
 	}
 
 	.featured {
