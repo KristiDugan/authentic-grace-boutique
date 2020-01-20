@@ -12,4 +12,16 @@ A front-end website project for Moms Can Code School Cohort 5.
 
 ## Description
 
-The assignment was to design and develop a MVP for a website for a fictional client. We were supplied with a buyer persona and a list of requested features. 
+The assignment was to design and develop a MVP for a website for a fictional client. We were supplied with a buyer persona and a list of requested features. The [initial version](https://github.com/KristiDugan/authentic-grace) of this project was completed as a pair-programming effort. The current version (this repo) was done by Kristi Dugan.
+
+### Wireframing
+Rough wireframes of the mobile and desktop versions of the site were made using Figma. [Figma wireframes](https://www.figma.com/file/yMhHXmHO6tbNS6sXhm27WX/Authentic-Grace?node-id=0%3A1)
+
+### Visual Design
+Design inspiration was taken from photos from Unsplash.
+
+### Development
+Front-end development was done using Visual Studio Code.
+
+### Accessibility 
+The site was audited for accessibility using [these guidelines](http://romeo.elsevier.com/accessibility_checklist/).
